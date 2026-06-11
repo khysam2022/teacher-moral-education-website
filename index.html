@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老師道德教育 - 沉浸式角色扮演與霸凌防治教育模擬遊戲</title>
+    <meta name="description" content="扮演教師面對校園欺凌！在寫實3D課室中抉擇分支，結合AI分析與語音合成，引導學生反思，探索真正的教育公義與道德抉擇。">
+    <meta name="keywords" content="老師道德教育,校園霸凌,教育模擬,道德抉擇,AI教育,教師培訓,心理輔導,角色扮演,反思,3D校園,Bullying,Teacher">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="老師道德教育 - 沉浸式教育模擬遊戲">
+    <meta property="og:description" content="扮演教師面對校園欺凌！在寫實3D課室中抉擇分支，結合AI分析與語音合成，引導學生反思。">
+    <meta property="og:image" content="assets/app_icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo-group">
+                <img src="assets/app_icon.png" alt="老師道德教育 App Icon" class="logo-img">
+                <span class="logo-text">老師道德教育</span>
+            </a>
+            <nav class="nav">
+                <a href="#hero" class="nav-link active" id="nav-home">首頁</a>
+                <a href="#features" class="nav-link" id="nav-features">特色</a>
+                <a href="#screenshots" class="nav-link" id="nav-screenshots">遊戲畫面</a>
+                <a href="#support" class="nav-link" id="nav-support">客戶支援</a>
+                <a href="#privacy" class="nav-link" id="nav-privacy">隱私政策</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#hero" class="mobile-nav-link">首頁</a>
+        <a href="#features" class="mobile-nav-link">特色</a>
+        <a href="#screenshots" class="mobile-nav-link">遊戲畫面</a>
+        <a href="#support" class="mobile-nav-link">客戶支援</a>
+        <a href="#privacy" class="mobile-nav-link">隱私政策</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="glow-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">全新教育模擬遊戲</span>
+                    <h1 class="hero-title">老師道德教育</h1>
+                    <p class="hero-tagline">扮演教師面對校園欺凌！在寫實3D課室中抉擇分支，結合AI分析與語音合成，引導學生反思，探索真正的教育公義。</p>
+                    <div class="hero-actions">
+                        <a href="#screenshots" class="btn btn-primary" id="btn-explore">探索遊戲</a>
+                        <a href="#support" class="btn btn-secondary" id="btn-contact-us">聯絡我們</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="device-frame">
+                        <div class="device-screen">
+                            <img src="assets/classroom_realistic.png" alt="遊戲實機畫面" id="hero-display-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">遊戲核心特色</h2>
+                    <p class="section-subtitle">融合教育心理學理論與現代AI技術，提供最真實的道德抉擇體驗</p>
+                </div>
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">多分支劇情抉擇</h3>
+                        <p class="feature-desc">在「不處罰任何人」、「只罰受害者」、「處罰所有人」或「輕罰霸凌者」之間抉擇。你的每個決定都會改變故事結局與學生的命運。</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">寫實3D課室場景</h3>
+                        <p class="feature-desc">使用 Unity 精心打造的校園環境，包括午休時的課室、課後走廊與操場，搭配角色表情與動作，還原最真實的霸凌現場。</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">AI 即時評估分析</h3>
+                        <p class="feature-desc">首創開放式自訂回答！透過 AI (OpenRouter API) 即時評估你輸入的處理方案，深入剖析此舉對受害者、霸凌者及班級氛圍的心理影響。</p>
+                    </div>
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">MiniMax 語音合成</h3>
+                        <p class="feature-desc">內置 MiniMax Text-to-Audio (T2A) 語音合成引擎，將劇本對話轉為情緒飽滿的廣東話或普通話配音，極大提升劇情的表現力。</p>
+                    </div>
+                    <!-- Feature 5 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">學術心理學反饋</h3>
+                        <p class="feature-desc">遊戲中的反饋由專業文獻支持，包含旁觀者效應、Bowlby 依附理論以及同儕關係研究，讓遊玩過程兼具教育性與學術價值。</p>
+                    </div>
+                    <!-- Feature 6 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">雲端數據回報</h3>
+                        <p class="feature-desc">整合 Google Sheets API 自動上傳玩家的抉擇與反思內容，方便教師培訓機構或學術研究進行群體數據分析與教學討論。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section (Carousel) -->
+        <section id="screenshots" class="screenshots-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">遊戲精彩畫面</h2>
+                    <p class="section-subtitle">一窺細緻的校園環境與引人入勝的角色對話</p>
+                </div>
+                
+                <!-- Carousel Container -->
+                <div class="carousel-container">
+                    <div class="carousel-slides" id="carousel-slides">
+                        <div class="carousel-slide active">
+                            <img src="assets/classroom_realistic.png" alt="課室全景 - 老師進入班房">
+                            <div class="carousel-caption">課室全景 — 老師目睹小明與小凱衝突後的現場</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/classroom_realistic_2.png" alt="近景細節 - 3D課室佈局">
+                            <div class="carousel-caption">近景細節 — 3D課室與學生課桌椅排列</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/classroom_scene_view.png" alt="Unity場景設計 - 開發視角">
+                            <div class="carousel-caption">Unity場景設計 — 精緻且合乎比例的教學空間規劃</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Controls -->
+                    <button class="carousel-btn prev-btn" id="carousel-prev" aria-label="Previous image">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                        </svg>
+                    </button>
+                    <button class="carousel-btn next-btn" id="carousel-next" aria-label="Next image">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                        </svg>
+                    </button>
+                    
+                    <!-- Dots -->
+                    <div class="carousel-dots" id="carousel-dots">
+                        <span class="carousel-dot active" data-index="0"></span>
+                        <span class="carousel-dot" data-index="1"></span>
+                        <span class="carousel-dot" data-index="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs Section (Support-related) -->
+        <section class="faqs-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">常見問題解答 (FAQ)</h2>
+                    <p class="section-subtitle">為您解答遊玩及技術使用上的常見疑難</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question" id="faq-q1">
+                            <span>本遊戲主要目的是什麼？</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>本遊戲旨在為在職教師、師範生以及社工提供一個安全、無風險的虛擬環境，去面對和反思校園言語霸凌的處理手法。透過故事分支，讓玩家親身體會不同管理策略對學生產生的深遠心理影響。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" id="faq-q2">
+                            <span>如何使用 AI 即時評估分析功能？</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>當玩家在遊戲中選擇「自行描述處理方式」時，可以輸入高達 50 字的處理對策。遊戲會將文字傳送至 OpenRouter API，由後台 AI 根據教育心理學框架，即時反饋該做法的優缺點與潛在風險。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" id="faq-q3">
+                            <span>為什麼遊戲中聽得到角色說話的聲音？</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>我們接入了 MiniMax 文本轉語音 (T2A) 語音合成引擎。遊戲會實時將劇本對白轉換成語氣與語調匹配的真人語音，使得霸凌現場的嘲笑聲與受害者的憋屈心聲更加具有臨場感。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" id="faq-q4">
+                            <span>如何獲取學術研究回報的數據？</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>遊戲在獲得玩家授權後，會將抉擇數據與反思回答上傳至指定的 Google Sheets。如果您是學校管理員或研究人員，並需要單獨的數據表單，請通過客戶支援與我們聯絡，我們將為您配置專屬的 API 連接。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section (Contact Form) -->
+        <section id="support" class="support-section">
+            <div class="container">
+                <div class="support-grid">
+                    <div class="support-info">
+                        <h2 class="section-title">客戶支援與反饋</h2>
+                        <p class="support-intro">在使用《老師道德教育》的過程中遇到任何技術問題，或者對教學內容有改善建議，歡迎隨時與我們聯絡。我們的團隊會在 1-2 個工作天內回覆您。</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span>support@teachermoralgame.example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <span>香港九龍塘香港浸會大學教育學系 / 線上支持辦公室</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="support-form-container">
+                        <form id="contact-form" class="support-form">
+                            <h3 class="form-title">發送聯絡表單</h3>
+                            <div class="form-group">
+                                <label for="name">您的姓名</label>
+                                <input type="text" id="name" name="name" required placeholder="例如：陳老師">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">電子郵件信箱</label>
+                                <input type="email" id="email" name="email" required placeholder="例如：teacher@school.edu.hk">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">主旨</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>請選擇諮詢類別</option>
+                                    <option value="technical">技術支援與錯誤回報</option>
+                                    <option value="academic">學術合作與數據授權</option>
+                                    <option value="feedback">遊戲內容反饋與建議</option>
+                                    <option value="other">其他問題</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">詳細內容</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="請詳細描述您遇到的問題或建議..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="btn-submit-form">送出表單</button>
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="privacy-section">
+            <div class="container">
+                <div class="privacy-card">
+                    <h2 class="section-title">《老師道德教育》隱私權政策</h2>
+                    <p class="privacy-date">最近更新日期：2026年6月12日</p>
+                    
+                    <div class="privacy-content">
+                        <h3>1. 資訊收集與使用</h3>
+                        <p>《老師道德教育》（下稱「本應用程式」）是一個用於教育培訓與模擬的遊戲。我們致力於保護您的隱私。本應用程式僅在以下情況下收集及處理資訊：</p>
+                        <ul>
+                            <li><strong>AI 抉擇文本：</strong>當您使用「自行描述處理方式」功能並輸入文字時，該文字會通過安全通道（加密的 HTTPS 連接）發送至 OpenRouter API 以進行語意分析並提供評估。我們不會在 AI 伺服器上永久儲存或關聯您的個人識別資訊。</li>
+                            <li><strong>雲端數據回報：</strong>若本應用程式配置了 Google Sheets 數據回報功能，您的抉擇路徑和反思文本會被寫入指定的試算表中。此項功能主要用於學校或培訓機構的教學成效評估，不會主動收集您的設備資訊或個人隱私檔案。</li>
+                        </ul>
+
+                        <h3>2. 第三方服務提供商</h3>
+                        <p>為了實現遊戲的核心功能，我們使用了以下值得信賴的第三方服務：</p>
+                        <ul>
+                            <li><strong>OpenRouter (OpenAI):</strong> 用於分析玩家的教育處置回答，並給予基於教育心理學的專業反饋。</li>
+                            <li><strong>MiniMax:</strong> 用於提供文字轉語音的實時音訊合成服務，為遊戲人物生成語音。</li>
+                        </ul>
+                        <p>這些第三方服務商僅在提供上述功能所需的範圍內處理傳輸的文字，並遵循其各自的隱私權條款。</p>
+
+                        <h3>3. 數據安全</h3>
+                        <p>我們採取了符合業界標準的安全防護措施（如 HTTPS 加密傳輸）來保護您在傳輸過程中的數據安全。然而，請注意，網際網路上的任何傳輸或儲存方法都不是 100% 安全的，我們無法保證其絕對的安全。</p>
+
+                        <h3>4. 兒童隱私</h3>
+                        <p>本應用程式主要面向教師、教育研究人員及成人學習者。我們不會故意收集 13 歲以下兒童的個人身份資訊。若您發現有兒童向我們提供了個人資訊，請立即與我們聯絡，我們將採取必要步驟刪除相關數據。</p>
+
+                        <h3>5. 聯絡我們</h3>
+                        <p>如果您對本隱私政策有任何疑問，或需要查詢/刪除您上傳的抉擇反思數據，請通過聯絡信箱與我們聯繫：<a href="mailto:support@teachermoralgame.example.com">support@teachermoralgame.example.com</a>。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 老師道德教育 (Teacher Moral Education) 專案開發組. 保留所有權利。</p>
+            <div class="footer-links">
+                <a href="#hero">首頁</a>
+                <a href="#features">特色</a>
+                <a href="#support">客戶支援</a>
+                <a href="#privacy">隱私權政策</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS script -->
+    <script src="script.js"></script>
+</body>
+</html>
